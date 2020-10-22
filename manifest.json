@@ -1,0 +1,10 @@
+{
+  "name": "CBA Test",
+  "version": "1.0",
+  "manifest_version": 2,
+  "content_scripts": [{
+      "js": ["script.js"],
+      "matches": ["https://*/*"]
+  }],
+  "web_accessible_resources": ["script.js"]
+}
